@@ -10,7 +10,7 @@ function Search({setResult}){
     const fetchData = async (value) => {
         try {
             const encodedValue = encodeURIComponent(value);
-            const response = await fetch(`http://localhost:5000/words/alphabet?search=${encodedValue}`);
+            const response = await fetch(`https://deffind-api.vercel.app/words/alphabet?search=${encodedValue}`);
             
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);

@@ -41,3 +41,8 @@
         padding: 0px 2px 0px 2px;
     }
 }
+@media(max-width:360px){
+    .p{
+        font-size: 6px;
+    }
+}

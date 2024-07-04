@@ -1,0 +1,20 @@
+.pagination{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.page-item{
+    color: #5624d0;
+    font-weight: 700;
+    padding: 1px 3px;
+    margin: 6px;
+    
+   
+
+}
+.page-item.clicked{
+    border-bottom: 3px solid black;
+}
+.page-item.disabled{
+    display: none;
+}

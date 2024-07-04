@@ -1,4 +1,5 @@
 import Heading from '../heading/heading.js';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function HomePage() {
  
@@ -9,6 +10,8 @@ export default function HomePage() {
         
      
       <Heading/>
+      <SpeedInsights />
+  
       
       
     </div>

@@ -8,7 +8,7 @@
     
     
 }
-::placeholder{
+#searchBar::placeholder{
     color: #250156;
     font-size: 20px;
     font-weight: 400;
@@ -23,6 +23,11 @@
 .search{
     display: flex;
     align-items: center;
-    margin: 6px;
-    justify-content: center;
+    margin: 12px 6px;
+    justify-content: space-evenly;
+}
+@media(max-width:360px){
+    .search{
+        margin: 5px 6px;
+    }
 }

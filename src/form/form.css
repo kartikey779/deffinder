@@ -18,6 +18,12 @@ input,textarea,select{
 #inputL{
     margin: 10px;
 }
+.desireInput{
+    width: 30vh;
+}
+.desireInput::placeholder{
+    font-size: 1.6vh;
+}
 #btn{
     display: flex;
     justify-content: center;
@@ -36,6 +42,26 @@ input,textarea,select{
     background-color: #005ce6;
     outline: none;
 }
+.anchor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #f2f2f3;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 20px;
+    height: 46px;
+    line-height: 46px;
+    text-decoration: none;
+    margin: 15px 38px 8px 36px;
+    font-weight: 600;
+    color: white;
+    background-color: #005ce6;
+    outline: none;
+    cursor: pointer;
+
+}
 .frm{
     margin-left: 69px;
 }
@@ -53,7 +79,7 @@ input,textarea,select{
         font-size: 18px;
     }
     input{
-        font-size: 10px;
+        font-size: 21px;
     }
     select{
         font-size: 12px;
@@ -76,3 +102,31 @@ input,textarea,select{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

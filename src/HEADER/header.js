@@ -5,40 +5,15 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import { ReactComponent as MySVG } from './addSvg.svg';
 import Form from '../form/form';
-import Login from '../form/loginForm';
-import SignUp from '../form/signup';
+import { Link } from 'react-router-dom';
+import Login from '../auth/Login';
+// import SignUp from '../form/signup';
 
 
   
-  function Header() {
+  function Header({user}) {
+    user = false;
     
-  //  const [username, setUsername ] = useState("");
-  //  const [password, setPassword ] = useState("");
-  //  const handleOnSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try{
-  //     const response = await fetch("/register",{
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify({
-  //         username,
-  //         password,
-  //       }),
-  //     });
-    
-  //   if (response.status === 200) {
-  //     // Handle success, e.g., show a success message
-  //   } else {
-  //     // Handle errors, e.g., show an error message
-  //     const data = await response.json();
-  //     console.error(data.error);
-  //   }
-  // } catch (error) {
-  //   console.error(error);
-  // }
-  // };
     return (
       <section >
         <h1 className="h1">
@@ -69,37 +44,27 @@ import SignUp from '../form/signup';
 			</Popup> 
            
           </div>
+          
 
           <div className= "flex">
-
           <Popup trigger=
-				{  <div   class="signIn">Sign in</div> }
+				{  !user ? (
+          <button className="signInButton">
+          <span>Sign in</span>
+          </button>
+          ) : ( <Link to="/">logout</Link>)
+          
+          
+       }
 				modal nested>
 				{
-					close => (
-            
-            
-            <div>
+          close => (
             <Login/>
-              
-            </div>
-						
 					)
 				}
 			</Popup>
-          
+          {/*  */}
 
-          <Popup trigger=
-				{ <div  class="signUp">Sign up</div>}
-				modal nested>
-				{
-					close => (
-            <SignUp/>
-					)
-				}
-			</Popup>
-          
-         
 
           </div>
 
