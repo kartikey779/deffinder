@@ -1,0 +1,70 @@
+.words1{
+    font-size: 100%;
+}
+/* .popup-content{
+    width: 23%;
+} */
+.content{
+    text-align: center;
+}
+.subject{
+    margin: -6px 84px -3px 84px;
+    font-weight: 200;
+    color: #7d7c83;
+}
+.closeButton{
+    display: flex;
+}
+.svg-container2 {
+    width: 70px;
+    height: 20px;
+}
+svg:hover{
+    fill: aqua;
+}
+.Svg2:hover{
+    fill: beige;
+}
+.anchor3:hover{
+    background-color: #2370e4;
+}
+@media(max-width:1550px){
+    .popup-content{
+        width: 23%;
+    }
+}
+@media(max-width:1220px){
+    .words1{
+        font-size: 78%;
+    }
+    .popup-content{
+        width: 35%;
+    }
+   
+}
+@media(max-width:1000px){
+    .words1{
+        font-size: 64%;
+    }
+    .popup-content{
+        width: 35%;
+    }
+    
+}
+@media (max-width:827px) {
+    .words1{
+        font-size: 48%;
+    }
+}
+@media (max-width:490px){
+    .popup-content{
+        width: 75%;
+    }
+    .words1{
+        font-size: 187%;
+    }
+}
+
+
+
+

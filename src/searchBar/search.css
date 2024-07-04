@@ -1,0 +1,28 @@
+#searchBar{
+    background-color: #8c6abb;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    background-color: transparent;
+    border: none;
+    
+    
+}
+::placeholder{
+    color: #250156;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#search-icon{
+    color: rgb(0, 38, 150);
+    font-size: 24px;
+    margin-left: 4px;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    justify-content: center;
+}

@@ -1,0 +1,43 @@
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 0.5%;
+}
+.footer-content2{
+    display: flex;
+    padding: 1%;
+
+}
+.anchor{
+    padding: 0px 4px 0px 4px;
+}
+@media (max-width:827px) {
+    p{
+        font-size: 15px;
+    }
+
+    
+}
+@media (max-width:724px) {
+    .p{
+        font-size: 12px;
+    }
+
+    
+}
+@media (max-width:622px) {
+    .p{
+        font-size: 8px;
+    }
+    .fa-2x {
+        font-size: 1em;
+    }
+
+    
+}
+@media(max-width:490px){
+    .p{
+        padding: 0px 2px 0px 2px;
+    }
+}

@@ -1,0 +1,78 @@
+input,textarea,select{
+    outline: none;
+}
+.regis{
+    font-weight: 900;
+    font-size: 38px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+.lebal{
+    
+    margin-left: 99px;
+    font-size: 18px;
+    font-weight: 800;
+}
+#inputL{
+    margin: 10px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #f2f2f3;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 20px;
+    height: 46px;
+    line-height: 46px;
+    text-decoration: none;
+    margin: 15px 88px 8px 56px;
+    font-weight: 600;
+    color: white;
+    background-color: #005ce6;
+    outline: none;
+}
+.frm{
+    margin-left: 69px;
+}
+@media(max-width:750px){
+    .content{
+        font-size: 28px;
+    }
+    input{
+        font-size: 16px;
+    }
+    
+}
+@media(max-width:750px){
+    .content{
+        font-size: 18px;
+    }
+    input{
+        font-size: 10px;
+    }
+    select{
+        font-size: 12px;
+    }
+    textarea{
+        width:60%;
+    }
+    .anchor3{
+        font-size: 12px;
+        height: 34px;
+    }
+    p1{
+        font-size: 8px;
+    }
+    .ppp{
+        font-size: 11px;
+    }
+    .pq{
+        font-size: 7px;
+    }
+
+}

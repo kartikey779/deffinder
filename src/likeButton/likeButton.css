@@ -1,0 +1,8 @@
+.likeCount{
+    cursor: pointer;
+    width: 100%;
+    font-weight: 700;
+    font-size: 19px;
+    margin: 6px -44px 6px 6px;
+    float: right;
+}

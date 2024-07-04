@@ -1,0 +1,268 @@
+/*size- 12px,24px,48px,64px,84px,96px,128px;
+color-main:#432371,
+second-#faae7b, #F5FFFA
+text-#2A3439
+
+*/
+html{
+    color: #2A3439;
+    
+  
+   
+}
+.h1{
+   
+    display: flex;
+    color: #faae7b;
+    margin-top: 0px;
+    justify-content: space-between;
+    background-color: #432371;
+    cursor: pointer;
+    align-items: center;
+    padding: 12px;
+    font-size: 18px;
+    border-bottom: 0.5px solid #faae7b;
+    font-family: "Inter",sans-serif;
+     
+}
+.h2{
+    display: flex;
+    padding: 0px 48px 0px 24px;
+    align-items: center;
+}
+.main{
+   
+    padding: 6px;
+    border: 2.5px solid #faae7b;
+    border-radius: 50%;
+    margin-left: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #faae7b;
+    
+}
+.main1{
+    border-right: 1px solid white;
+    padding:  8px 24px 8px 8px;
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+    color: #faae7b;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.signIn{
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 200;
+    font-size: 14px;
+    color: #faae7b;
+    padding: 12px;
+    
+}
+.signUp{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 4px;
+    color: rgb(235, 235, 235);
+    background-color: #f99c5d;
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.popup-content{
+    border-radius: 20px;
+    /* width: 24%; */
+}
+.content{
+    font-weight: 900;
+    font-size: 38px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    color: #7d7c83;
+    font-weight: 500;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+.anchor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #f2f2f3;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 20px;
+    height: 46px;
+    line-height: 46px;
+    text-decoration: none;
+    margin: 8px 56px 8px 56px;
+    font-weight: 600;
+}
+.anchor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #f2f2f3;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 20px;
+    height: 46px;
+    line-height: 46px;
+    text-decoration: none;
+    margin: 15px 38px 8px 36px;
+    font-weight: 600;
+    color: white;
+    background-color: #005ce6;
+    outline: none;
+    cursor: pointer;
+
+}
+p1{
+    color: #7d7c83;
+    font-weight: 400;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.modal{
+    display: flex;
+    width: 99%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.svg-container {
+    width: 70px;
+    height: 20px;
+    border-right: 1px solid rgb(235, 235, 235);
+    
+}
+.svgFile{
+    transition: transform 0.3s ease-out;
+    
+
+}
+.svgFile:hover{
+    transform: rotate(360deg);
+}
+#popup-4{
+    width: 23%;
+}
+/* #popup-6{
+    width: 23%;
+} */
+#popup-2{
+    width:23%;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-weight: 900;   
+}
+
+label{
+    margin: 8px 40px 0px 32px;
+    font-size: 24px;
+    font-weight: 800;
+}
+textarea {
+    width: 68%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 900;
+}
+select{
+    margin: 12px 124px 12px 110px;
+    font-size: 19px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: 800;
+    text-align: center;
+   
+}
+@media(max-width:1422px){
+    #popup-2{
+        width: 28%;
+    }
+}
+@media(max-width:1220px){
+    #popup-2{
+        width: 35%;
+    }
+    #popup-4{
+        width:46%;
+    }
+}
+@media(max-width:960px){
+    #popup-2{
+        width: 43%;
+    }
+}
+@media(max-width:750px){
+    #popup-2{
+        width: 55%;
+    }
+    #popup-4{
+        width: 73%;
+    }
+    .h2{
+        padding: 0px 0px 0px 24px;
+    }
+    .main{
+        margin-left:12px ;
+    }
+    .pp{
+        font-size: 10px;
+    }
+    .pq{
+        font-size: 8px;
+    }
+    .anchor2{
+        font-size: 12px;
+        height: 32px;
+    }
+}
+@media(max-width:490px){
+    .main{
+        font-size: 12px;
+        border: 2px solid #faae7b;
+    }
+    .signIn{
+        font-size: 12px;
+        margin: 14px;
+    }
+    .svg-container{
+        height: 22px;
+        width: 33px;
+    }
+    .svgFile{
+        width: 24px;
+    }
+
+    
+}
+
+
+  
+
+
+  
